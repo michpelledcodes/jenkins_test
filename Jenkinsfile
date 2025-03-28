@@ -33,7 +33,7 @@ pipeline {
             }
         }
         stage('test'){
-            agents{
+            agent{
                 label 'linux'
             }
             steps{
